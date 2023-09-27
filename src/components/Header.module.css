@@ -1,0 +1,29 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #151515;
+}
+
+.header__main{}
+
+.header__inner{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.menu__list{
+    display: flex;
+    gap: 35px
+}
+
+.menu__list_link{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
