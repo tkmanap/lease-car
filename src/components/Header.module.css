@@ -1,15 +1,19 @@
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.header{
+.header {
     background-color: #151515;
 }
 
-.header__main{}
+.header__main{
+    background-color: #151515;
+    position: absolute;
+    z-index: 5;
+}
 
-.header__inner{
+.header__navbar {
     padding-top: 40px;
     padding-bottom: 45px;
     display: flex;
@@ -17,13 +21,60 @@
     align-items: flex-end;
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     gap: 35px
 }
 
-.menu__list_link{
+.menu__list_link {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.header__text {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 105px;
+    padding-bottom: 38px;
+    position: absolute;
+    z-index: 5;
+}
+
+.header__btn {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #151515;
+    padding: 23px;
+    display: inline-block;
+    text-transform: uppercase;
+    max-width: 430px;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper__wrapper {
+    background: rgba(21, 21, 21, .3);
+}
+
+.swiper__slide {
+    display: block;
+    height: 100vh;
+    object-fit: cover;
 }
