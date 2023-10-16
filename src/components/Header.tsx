@@ -4,7 +4,7 @@ import HeaderNavbar from "./HeaderNavbar";
 import Slider from "./Slider";
 
 const Header = () => {
-    const test = false
+    const test = true
     return (
         <div className={s.wrapper}>
             {test ?
