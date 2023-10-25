@@ -37,3 +37,10 @@ ul{
     flex-grow: 1;
 }
 
+.button:active{
+    color: #0066ff;
+}
+
+.Link:active{
+    color: #0066ff;
+}

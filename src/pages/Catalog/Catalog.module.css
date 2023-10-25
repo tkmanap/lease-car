@@ -1,0 +1,61 @@
+.catalog {
+    margin-top: 100px;
+}
+
+.catalog_title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.catalog_navmenu {
+    padding: 0 150px 100px;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+}
+
+.catalog_navmenu_btn {
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.car{
+    margin-bottom: 150px;
+}
+
+.car_item{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.car_card{
+    text-align: center;
+}
+
+.car_img{
+    margin-bottom: 20px;
+}
+
+.car_title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+.car_price{
+    margin-bottom: 20px;
+    padding: 0 5px;
+}
+
+.car_link{
+    padding: 0 5px;
+    color: #0066ff;
+}

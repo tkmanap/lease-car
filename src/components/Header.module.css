@@ -32,6 +32,10 @@
     font-weight: 700;
 }
 
+.menu__list_link.active{
+    color: #0066ff;
+}
+
 .header__text {
     text-align: center;
     color: #fff;

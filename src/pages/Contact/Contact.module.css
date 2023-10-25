@@ -1,0 +1,119 @@
+.contact_title {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contact_subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 50px;
+}
+
+.form {
+    max-width: 580px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_input {
+    width: 270px;
+    padding: 18px 20px;
+    display: inline-block;
+    border: 1px solid #0066ff;
+    margin-bottom: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000000;
+}
+
+.form_name::placeholder {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.form_textarea {
+    width: 100%;
+    height: 290px;
+    resize: none;
+    padding: 28px 20px;
+    border: 1px solid #0066ff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.form_button {
+    margin: 0 auto 150px;
+    text-transform: uppercase;
+    padding: 13px 61px;
+    background-color: #151515;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.blog {
+    padding-bottom: 150px;
+}
+
+.blog_items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.blog_item_link {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.blog_item_img {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.blog_title {
+    color: #151515;
+    flex-basis: 446px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.blog_item_button {
+    color: white;
+    background-color: #0066ff;
+    padding: 4px 20px;
+}
+
+.blog_link {
+    text-transform: uppercase;
+    padding: 13px 61px;
+    justify-content: center;
+    align-items: center;
+    background-color: #151515;
+    color: #ffffff;
+    width: 225px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}

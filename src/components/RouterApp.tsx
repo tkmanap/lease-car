@@ -17,6 +17,10 @@ export const RouterApp = createBrowserRouter([
         errorElement: <ErrorPage/>,
         children: [
             {
+                path: '/',
+                element: <Home />
+            },
+            {
                 path: CATALOG_ROUTE,
                 element: <Catalog/>
             },
